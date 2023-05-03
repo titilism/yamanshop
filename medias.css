@@ -1,15 +1,20 @@
-@media only screen and (width <= 1030px) {
+@media only screen and (width <=  1000px) {
     .navbar {
         display: none;
     }
     .nav-btn{
         display: flex;
     }
+    .top{
+        padding: 0 10px;
+    }
+  }
+@media only screen and (width <=  750px) {
     .search-box{
         display: none;
     }
     .s-btn{
         display: block;
     }
-  }
 
+  }
