@@ -1,4 +1,13 @@
 @media only screen and (width <=  1000px) {
+
+    .search-box{
+        display: none;
+    }
+    .s-btn{
+        display: block;
+    }
+  }
+@media only screen and (width <=  780px) {
     .navbar {
         display: none;
     }
@@ -8,13 +17,6 @@
     .top{
         padding: 0 10px;
     }
-  }
-@media only screen and (width <=  750px) {
-    .search-box{
-        display: none;
-    }
-    .s-btn{
-        display: block;
-    }
+
 
   }
