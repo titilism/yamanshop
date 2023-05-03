@@ -1,0 +1,170 @@
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/Polyamine.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    /* border: 1px solid red; */
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(white, #33c5f4); */
+    background-color: #33c5f4;
+
+}
+
+.top {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 0 50px;
+    /* background-color: #8294C4; */
+    background: white;
+    /* box-shadow: 0 10px 90px 100px white; */
+}
+
+ul>li {
+    display: inline;
+}
+
+#logo {
+    height: 40px;
+    margin-top: 3px;
+    /* box-shadow: 0 0 10px black; */
+}
+
+.options {
+    height: 80px;
+    width: auto;
+    padding: 0 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search-input {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+    border: .2px solid black;
+    outline: none;
+    padding: 5px 10px 5px 20px;
+
+}
+
+#search-btn {
+    height: 40px;
+    width: 80px;
+    background: black;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: .2px solid black;
+    border-left: none;
+    margin-left: -10px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-box {
+    height: 50px;
+    /* border: .5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul>li>a {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.home>a {
+    font-family: myFont;
+    font-size: 3.5em;
+    color: black;
+    margin-left: -10px;
+    cursor: pointer;
+    text-decoration: none;
+    /* font-weight: bolder; */
+}
+
+.colorCyan {
+    font-family: myFont;
+
+    color: #33c5f4;
+}
+
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'Comfortaa', helvetica;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+.navbar{
+    height: 50px;
+    width:345px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn{
+    cursor: pointer;
+    height: 46px;
+    width: 60px;
+    /* border: 1px solid black; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    height: 8px;
+    width: 60px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 15px 0 0 black,0 -15px 0 0 black;
+}
+.s-btn{
+    height: 46px;
+    width: 60px;
+    background: black;
+    padding-top: 5px;
+    border-radius: 10px;
+    display: none;
+}

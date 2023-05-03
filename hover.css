@@ -1,0 +1,17 @@
+#search-btn:focus {
+    outline-style: solid;
+    outline-color: #33c5f4;
+    outline-width: .5px;
+    border: 0;
+}
+
+#search-btn:hover {
+    background-color: #33c5f4;
+
+}
+
+ul>li>a:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    color: black;
+}
